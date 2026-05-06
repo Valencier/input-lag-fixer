@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="520" viewBox="0 0 800 520" role="img" aria-label="Input Lag Fixer Dashboard">
+  <rect width="800" height="520" fill="#0f172a"/>
+  <rect x="40" y="36" width="720" height="448" rx="22" fill="#111827" stroke="#334155" stroke-width="2"/>
+  <text x="70" y="92" font-family="Segoe UI, Arial" font-size="32" font-weight="700" fill="#f8fafc">Input Lag Fixer Dashboard</text>
+  <text x="70" y="124" font-family="Segoe UI, Arial" font-size="16" fill="#94a3b8">Descriptive placeholder screenshot for documentation.</text>
+  <rect x="70" y="150" width="660" height="34" rx="8" fill="#1f2937"/><text x="92" y="173" font-family="Segoe UI, Arial" font-size="18" fill="#e5e7eb">Game selector</text><rect x="70" y="202" width="660" height="34" rx="8" fill="#1f2937"/><text x="92" y="225" font-family="Segoe UI, Arial" font-size="18" fill="#e5e7eb">Run Optimization</text><rect x="70" y="254" width="660" height="34" rx="8" fill="#1f2937"/><text x="92" y="277" font-family="Segoe UI, Arial" font-size="18" fill="#e5e7eb">Restore</text><rect x="70" y="306" width="660" height="34" rx="8" fill="#1f2937"/><text x="92" y="329" font-family="Segoe UI, Arial" font-size="18" fill="#e5e7eb">Progress: 68%</text><rect x="70" y="358" width="660" height="34" rx="8" fill="#1f2937"/><text x="92" y="381" font-family="Segoe UI, Arial" font-size="18" fill="#e5e7eb">Status: Applying Game DVR policy</text>
+  <rect x="70" y="430" width="660" height="18" rx="9" fill="#334155"/>
+  <rect x="70" y="430" width="430" height="18" rx="9" fill="#38bdf8"/>
+</svg>

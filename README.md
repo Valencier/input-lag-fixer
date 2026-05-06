@@ -183,11 +183,11 @@ When publishing results, include:
 
 The repository uses descriptive placeholder images until a release build captures real screens.
 
-![Main application dashboard showing dark theme, game selector, optimization status, and restore button](docs/images/main-dashboard-placeholder.png)
+![Main application dashboard showing dark theme, game selector, optimization status, and restore button](docs/images/main-dashboard-placeholder.svg)
 
-![Settings panel with timer resolution, Game DVR, process priority, and logging options](docs/images/settings-panel-placeholder.png)
+![Settings panel with timer resolution, Game DVR, process priority, and logging options](docs/images/settings-panel-placeholder.svg)
 
-![Benchmark report view showing before and after latency results for multiple games](docs/images/benchmark-report-placeholder.png)
+![Benchmark report view showing before and after latency results for multiple games](docs/images/benchmark-report-placeholder.svg)
 
 ---
 
