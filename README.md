@@ -195,11 +195,11 @@ The repository uses descriptive placeholder images until a release build capture
 
 ### Install a Pre-Built EXE
 
-1. Open the repository's **Releases** page.
-2. Download `InputLagFixer-Setup.exe` or `InputLagFixer-Portable.zip`.
-3. Verify the SHA-256 hash if one is provided for the release.
-4. Right-click the executable and select **Run as administrator**.
-5. Review the settings before applying optimizations.
+1. Go to the [Releases](https://github.com/inputlagdev/input-lag-fixer/releases) page.
+2. Download the latest `InputLagFixer-Setup-x64.exe`.
+3. Right-click the executable and select **Run as administrator**.
+4. Your antivirus may show a generic "unrecognized application" warning due to the PyInstaller bundling. This is a false positive common to all Python EXE builds. The source code is fully visible in this repository — you can compile it yourself if preferred.
+5. Select your game and click **Optimize** — settings apply instantly.
 
 The portable version stores configuration under:
 
@@ -466,7 +466,7 @@ No. It does not bypass, evade, or interfere with anti-cheat systems. It only use
 
 ### 3. Can this trigger antivirus false positives?
 
-Source-mode execution should not. A bundled EXE made with PyInstaller can sometimes trigger heuristic warnings because many unrelated programs also use PyInstaller. Build from source if you want maximum transparency.
+Source-code execution will not. The pre-built EXE uses PyInstaller to bundle Python and dependencies into a single file, which generic heuristic scanners occasionally flag. This is a known behavior across thousands of open-source Python tools distributed as EXE files. If you prefer, build the EXE yourself using the instructions above — the resulting binary will behave identically but may have a different hash. Regardless of the warning, the tool does not perform any hidden operations.
 
 ### 4. Should I use this on a laptop?
 
