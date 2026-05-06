@@ -1,0 +1,23 @@
+# Runtime dependency for process enumeration and Windows priority classes.
+psutil>=5.9.8
+
+# Build dependency used by the GitHub Actions workflow to create a standalone EXE.
+pyinstaller>=6.4.0
+
+# Development dependency used for optional formatting in local contributor workflows.
+black>=24.1.0
+
+# Development dependency used for optional linting in local contributor workflows.
+ruff>=0.2.0
+
+# Development dependency used for optional static type checking in local contributor workflows.
+mypy>=1.8.0
+
+# Documentation-only note: winreg is bundled with Python on Windows.
+# It cannot be installed from PyPI and is imported conditionally by input_lag_fixer.py.
+
+# Documentation-only note: tkinter is bundled with most Python installers.
+# On Windows python.org builds include it by default; Linux package managers may split it.
+
+# Documentation-only note: ctypes, argparse, logging, json, pathlib, dataclasses,
+# unittest, threading, queue, and traceback are Python standard-library modules.
